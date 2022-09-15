@@ -1,11 +1,117 @@
 body {
-    font-family: 'Raleway', ;
-    background-color: #f1f1f1; 
-    color: #fff;
+    font-family: 'Raleway' ;
+    background-color: #fff;
+    color: #000;
     font-size: 18px;
     margin: 0 auto;
+    width: 1510px;
+}
+.header {
+    background-color: #000;
+    background-color: rgb(0, 0, 0.);
+    width: 100%;
+}
+    
+.container1 {
+    max-width: 1170px;
+    margin: auto;
+}
+.nav__menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 76px;
+    justify-content: space-between;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.nav li:not(:first-child) {
+    margin-left: 60px;
 }
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    
+}
+.block-awesome {
+    display: flex;
+    margin-top: 50px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    
+    align-items: center;
+}
+hr {
+    width: 170px;
+    border: none;
+    height: 1px;
+    background-color: #EC7979;
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 18px;
+    color: #86878B;
+    margin-bottom: 110px;
+}
+.excellence {
+    padding-right: 30px;
+    padding-left: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+.advantages {
+    padding-right: 0;
+    /* padding-left: 26px; */
+    padding-left: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+.icons {
+    margin-bottom: 39px;
+}
+.benefits {
+    padding-left: 30px;
+    padding-right: 0;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+li {
+    display: flex;
+    justify-content: center;
+}
+.about {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    /* margin-top: 39px; */
+    /* margin-bottom: 8px; */
+}
+.description {
+    width: 370px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.pricing__list {
+    width: 1170px;
+    margin-left: 171px;
+    margin-right: 169px;
+}
+.description span {
+    display: block;
 }
