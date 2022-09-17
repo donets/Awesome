@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container1">
-            <nav class="nav">
-                <a class="logo" href="#" target="blank"><img src="./image/logo.png" alt="логотип"></a>
+    <header class="b-header">
+        <div class="container">
+            <nav>
+                <h1><a class="logo" href="#" target="blank"><img src="./image/logo.svg" alt="logo"></a></h1>
                 <ul class="nav__menu">
                     <li>
                         <a href="#">Features</a> 
@@ -41,86 +41,71 @@
     <main>
         <div class="block-awesome">
             <div class="container">
-                <h2 class="title">WHY THIS IS AWESOME</h2>
+                <h2>WHY THIS IS AWESOME</h2>
                 <hr>
                 <p class="subtitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
+                <ul class="pricing__list">
+                    <li>
+                        <i class="icons"><img src="./image/bulb.svg" alt="bulb"></i>
+                        <h5 class="about">Thoughtful Design</h5>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing </br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </li><li>
+                        <i class="icons"><img src="./image/key.svg" alt="keyboard"></i>
+                        <h5 class="about">Thoughtful Design</h5>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing </br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </li><li>
+                        <i class="icons"><img src="./image/thunder.svg" alt="thunder"></i>
+                        <h5 class="about">Thoughtful Design</h5>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing </br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                    </li>
+                 </div>
             </div>
         </div>
-        <div class="pricing__list">
-            <ul class="excellence">
-                <li><i><img class="icons" src="./image/icon1.png" alt="bulb"></i></li>
-                <li><h4 class="about">Thoughtful Design</h4></li>
-                <li><p class="description">
-                    Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> elit. Aenean euismod bibendum laoreet.<span> Proin gravida  dolor sit amet lacus</span> accumsan et viverra.</p></li>
-            </ul>
-            <ul class="advantages">
-                <li><i><img class="icons" src="./image/icon2.png" alt="keyboard"></i></li>
-                <li><h4 class="about">Thoughtful Design</h4></li>
-                <li><p class="description">
-                    Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> elit. Aenean euismod bibendum laoreet.<span> Proin gravida  dolor sit amet lacus</span> accumsan et viverra.</p></li>
-            </ul>
-            <ul class="benefits">
-                <li><i><img class="icons" src="./image/icon3.png" alt="thunder"></i></li>
-                <li><h4 class="about">Thoughtful Design</h4></li>
-                <li><p class="description">
-                    Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> elit. Aenean euismod bibendum laoreet.<span> Proin gravida  dolor sit amet lacus</span> accumsan et viverra.</p></li>
-            </ul>
-         </div>
-    </main>
-    <main class="main">
-        <div class="block-pricing">
-            <div class="container2">
-                <h2 class="title2">pricing options</h2>
+         <div class="block-pricing">
+            <div class="container">
+                <h2>pricing options</h2>
                 <hr>
-                <h5 class="subtitle2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-            </div>
-            <div class="container3">
-                <div class="price">
-                    <div class="price-head">
-                        <div class="price-title">Basic</div>
-                        <div class="price-count">$10</div>
-                        <div class="price-free">Free for life</div>
+                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="price-outer">
+                    <div class="price-inner">
+                        <h3 class="price-block price-title">Basic</h3>
+                        <div class="price-block price-count">$10</div>
+                        <div class="price-block price-free">Free for life</div>
+                        <ul class="price-list">
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                        </ul>
+                    </div><div class="price-inner">
+                        <h3 class="price-block price-title">Optima</h3>
+                        <div class="price-block price-count">$20</div>
+                        <div class="price-block price-free">Free for life</div>
+                        <ul class="price-list">
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                        </ul>
+                    </div><div class="price-inner">
+                        <h3 class="price-block price-title">Pro</h3>
+                        <div class="price-block price-count">$30</div>
+                        <div class="price-block price-free">Free for life</div>
+                        <ul class="price-list">
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                            <li>1 Gb of Space</li>
+                        </ul>
                     </div>
-                    <ul class="list">
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                    </ul>
-                </div>
-                <div class="price">
-                    <div class="price-head">
-                        <div class="price-title">Optima</div>
-                        <div class="price-count">$20</div>
-                        <div class="price-free">Free for life</div>
-                    </div>
-                    <ul class="list">
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                    </ul>
-                </div> 
-                <div class="price">
-                    <div class="price-head">
-                        <div class="price-title">Pro</div>
-                        <div class="price-count">$30</div>
-                        <div class="price-free">Free for life</div>
-                    </div>
-                    <ul class="list">
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                        <li class="price-list">1 Gb of Space</li>
-                    </ul>
                 </div>
             </div>
         </div>
