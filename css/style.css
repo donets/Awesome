@@ -49,6 +49,13 @@ nav li a {
     font-weight: 600;
     text-decoration: none;
     padding: 0 30px;
+    cursor: pointer;
+}
+nav li a:hover {
+    background: rgba(236, 121, 121, 1);
+}
+nav li a:active {
+    background: rgba(171, 73, 73, 1);
 }
 .nav__menu {
     display: flex;
