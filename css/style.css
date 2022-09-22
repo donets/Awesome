@@ -212,7 +212,7 @@ input::placeholder {
     margin-bottom: -1px;
 }
 .tab-list li {
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     padding: 10px 80px;
