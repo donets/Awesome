@@ -49,6 +49,7 @@ h2 {
 .nav {
     display: flex;
     align-items: center;
+    width: 100%;
     height: 75px;
     justify-content: space-between;
 }
@@ -239,6 +240,9 @@ input::placeholder {
 }
 .tab-info h3 {
     margin: 70px 0;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
 }
 .tab-content button {
     margin: 20px 0;
