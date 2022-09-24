@@ -379,10 +379,8 @@ hr {
 }
 .text-block li {
     text-align: center;
-    /* margin: 0 -15px 66px; */
     padding-top: 0;
     vertical-align: top;
-    /* padding: 38px 0 37px;  */
     margin-top: 0;
 }
 .text-block .words {
@@ -471,20 +469,21 @@ button.outlined:hover {
     padding: 50px 0;
     text-align: center;
 }
-
 .form-container {
     padding-top: 19px;
-    color: #BDBDBD;
 }
-.form-info {
+.form-content {
     display: flex;
-    flex-direction: column;
-    margin: 35px 0;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: top;
+}
+.form-left {
+    margin-right: 30px;
 }
 .form-first-field {
     display: flex;
     margin: 0 0 35px 0;
-
 }
 .form-field {
     width: 571px;
@@ -494,12 +493,31 @@ button.outlined:hover {
     border-bottom: 1px solid #BDBDBD;
     outline: none;
 }
+.form-info {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0;
+}
+.form-info__place {
+    margin-bottom: 0;
+}
 .message-field {
+    outline: none;
+    border: none;
     width: 569px;
+    padding: 16px 0;
+    line-height: 19px;
+}
+.form-self {
+    width: 569px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    padding-bottom: 148px;
 }
 .button-message {
     width: 370px;
-    margin-top: 15px;
+    margin-top: 50px;
 }
 .footer {
     background-color: #000;
